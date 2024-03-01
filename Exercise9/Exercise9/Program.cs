@@ -4,21 +4,32 @@
     {
         static void Main(string[] args)
         {
-            Console.Write("What Row Width");
+            Console.Write("What Row Width : ");
             int rowWidth = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("How many Rows");
-           int rowNum = int.Parse(Console.ReadLine());
-
-            for (rowWidth = 0; rowWidth < rowNum; rowWidth++)
+           
+            //print width of asterisks (left to right)
+            for (int i = 0; rowWidth < i; i++)
             {
                
-                Console.WriteLine("*");
+                Console.Write("*");
+               
 
 
             }
+           
+            Console.WriteLine(" How many Rows : ");
+            int rowNum = int.Parse(Console.ReadLine());
 
- int colWidth = int.Parse(Console.ReadLine());
-        }
+            for (int i = 0; rowNum >= i; i++)
+            {
+                
+                Console.WriteLine("*" ;
+
+            }
+            
+            }
+
+
     }
 }
