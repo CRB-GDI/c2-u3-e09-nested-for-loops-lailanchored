@@ -35,18 +35,18 @@
                 for (int astAcross = 1; astAcross <= k; astAcross++)
                 {
                     Console.Write("*");
-                    //[print stairs
+                    //print stairs
                     
                 }
 
-
+               
                 Console.WriteLine();
             }
-            
-        
+            //end of problem 2
 
 
-    }
+
+        }
 
 
     }
